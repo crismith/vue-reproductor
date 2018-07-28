@@ -78,7 +78,7 @@ var vm = new Vue({
     },
     computed: {
         buscarPorTitulo() { 
-            return this.videos.filter((busqueda) => busqueda.titulo.includes(this.busqueda))
+            //return this.videos.filter((busqueda) => busqueda.titulo.includes(this.busqueda))
         }
     }
 })
