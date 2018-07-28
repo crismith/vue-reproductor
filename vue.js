@@ -8,14 +8,7 @@ var vm = new Vue({
             videoActivo: '',
             mostrar: false,
             alternar: true,
-            videos : [
-                
-                {
-                    url : "https://www.youtube.com/watch?v=FAfxTvlq87s",
-                    titulo: 'Dua Lipa - Be the one'
-                    activo: false
-                }
-            ],
+            videos : [],
         }
     },
     created() {
