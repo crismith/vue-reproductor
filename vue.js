@@ -8,7 +8,11 @@ var vm = new Vue({
             videoActivo: '',
             mostrar: false,
             alternar: true,
-            videos : [],
+            videos : [
+                {
+                    
+                }
+            ],
         }
     },
     created() {
